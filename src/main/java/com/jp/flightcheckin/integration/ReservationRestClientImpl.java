@@ -1,10 +1,12 @@
 package com.jp.flightcheckin.integration;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import com.jp.flightcheckin.integration.dto.Reservation;
 import com.jp.flightcheckin.integration.dto.ReservationUpdateRequest;
 
+@Component
 public class ReservationRestClientImpl implements ReservationRestClient {
 
 	private static final String RESERVATION_REST_URL = "http://localhost:8080/flightreservation/reservations/";

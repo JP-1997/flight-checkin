@@ -15,6 +15,7 @@ public class Reservation {
 	public void setCheckedIn(boolean checkedIn) {
 		this.checkedIn = checkedIn;
 	}
+	
 
 	public int getNumberOfBags() {
 		return numberOfBags;

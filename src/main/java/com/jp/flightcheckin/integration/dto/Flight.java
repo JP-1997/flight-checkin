@@ -14,11 +14,11 @@ public class Flight {
 	private Date dateOfDeparture;
 	private Timestamp estimatedDepartureTime;
 
-	public String getFlightNUmber() {
+	public String getFlightNumber() {
 		return flightNumber;
 	}
 
-	public void setFlightNUmber(String flightNumber) {
+	public void setFlightNumber(String flightNumber) {
 		this.flightNumber = flightNumber;
 	}
 
